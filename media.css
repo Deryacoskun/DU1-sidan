@@ -1,0 +1,214 @@
+/* ----------------- MOBILVERSION <500PX -------------------- */
+@media (max-width: 500px) {
+    body {
+        background-image: url(Images/Are\ you\ experienced\ 2.jpg);
+    }
+
+    #cover {
+        margin: 0;
+    }
+
+    header h1 {
+        text-align: center;
+        font-size: 15vw;
+    }
+
+    nav a {
+        font-size: 3vw;
+    }
+
+    #first-box {
+        flex-direction: column-reverse;
+    }
+
+    .info-box,
+    #gallery {
+        width: 100%;
+    }
+
+    .info-box h2 {
+        font-size: 7vw;
+    }
+
+    .info-box h3 {
+        font-size: 5vw;
+    }
+
+    .info-box ul,
+    .info-box p {
+        font-size: 4vw;
+    }
+
+    .img-container img {
+        border-radius: 10px 0 0 10px;
+    }
+
+    .list-box ol {
+        padding: 3vw;
+    }
+
+    .list-box h4 {
+        font-size: 4vw;
+    }
+
+    .list-box li {
+        margin-left: 2.5vw;
+        font-size: 3vw;
+    }
+
+    .last-box {
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+    }
+
+    .last-box p {
+        font-size: 3vw;
+        padding: 2vw;
+    }
+
+    .last-box p:first-child {
+        grid-column: 1;
+        grid-row: 1;
+    }
+
+    .last-box p:nth-child(2) {
+        grid-column: 2 / span 2;
+        grid-row: 1;
+    }
+
+    .last-box img {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .last-box p:nth-child(4) {
+        grid-column: 2;
+        grid-row: 2;
+    }
+
+    .last-box p:nth-child(5) {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    main>:last-child .last-box p:first-child {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    main>:last-child .last-box p:nth-child(2) {
+        grid-column: 3;
+        grid-row: 1;
+    }
+
+    main>:last-child .last-box img {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    main>:last-child .last-box p:nth-child(4) {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    main>:last-child .last-box p:last-child {
+        grid-column: 3;
+        grid-row: 2;
+    }
+
+    footer p {
+        font-size: 4vw;
+    }
+}
+
+/* ----------- DESKTOP 800px-900px  ---------- */
+
+@media (min-width: 800px) and (max-width: 900px) {
+    header h1 {
+        font-size: 63px;
+    }
+
+    nav a {
+        font-size: 18px;
+    }
+
+    .info-box h2 {
+        font-size: 22px;
+    }
+
+    .info-box h3 {
+        font-size: 16px;
+    }
+
+    .info-box ul,
+    .info-box p,
+    .last-box p footer p {
+        font-size: 12px;
+    }
+}
+
+/* ------------ DESKTOP 900px-1200px -------------- */
+
+@media (min-width:900px) and (max-width:1200px) {
+    header h1 {
+        font-size: 7vw;
+    }
+
+    nav a {
+        font-size: 2vw;
+    }
+
+    .info-box h2 {
+        font-size: 2.4vw;
+    }
+
+    .info-box h3 {
+        font-size: 1.7vw;
+    }
+
+    .info-box ul,
+    .info-box p,
+    .last-box p,
+    footer p {
+        font-size: 1.3vw;
+    }
+}
+
+/* ---------- DESKTOP >1200px ----------------- */
+
+@media (min-width: 1200px) {
+    #cover {
+        width: 960px;
+    }
+
+    header h1 {
+        font-size: 84px;
+    }
+
+    nav a {
+        font-size: 24px;
+    }
+
+    .info-box h2 {
+        font-size: 29px;
+    }
+
+    .info-box h3 {
+        font-size: 20px;
+    }
+
+    .info-box ul,
+    .info-box p,
+    .last-box p,
+    footer p {
+        font-size: 15.5px;
+    }
+
+    .list-box h4 {
+        font-size: 18px;
+    }
+
+    .list-box li {
+        font-size: 12px;
+    }
+}
